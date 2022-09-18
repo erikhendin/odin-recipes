@@ -9,6 +9,7 @@ body{
   background-position: center center;
   background-color:azure;
   height: 100vh;
+  font-family: Helvetica, Verdana, sans-serif;
 }
 
 .nav ul {
@@ -23,7 +24,7 @@ body{
 .nav ul li a{
   text-decoration: none;
   color:black;
-  padding: 1.5rem;
+  padding: .5rem;
   font-weight: bold;
   transition: all .5s ease;
 }
