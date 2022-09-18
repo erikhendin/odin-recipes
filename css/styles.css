@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  -webkit-background-size: cover;
+  background-size:cover;
+  background-position: center center;
+  background-color:azure;
+  height: 100vh;
+}
+
+.nav ul {
+  list-style: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color:black;
+  padding: 1.5rem;
+  font-weight: bold;
+  transition: all .5s ease;
+}
+
+.header{
+  background: deepskyblue;
+  overflow: hidden;
+}
+
+.nav {
+ display:grid;
+ grid-template-columns: 6fr 6fr;
+ align-items: center;
+ width:1100px;
+ margin: auto;
+ padding:10px;
+}
+
+.nav img {
+ width:120px;
+ height: auto;
+}
+
+.nav ul li a:hover{
+ color: #000;
+ background: #fff;
+
+}
+
+.content {
+  padding:20px;
+  margin: 20px;
+}
+
+h1,h2{
+  display:block;
+  margin:20px;
+  padding:20px;
+}
+
+h1{
+  background-color:blanchedalmond;
+}
+
+
+h2{
+  background-color:aquamarine;
+}
+
+p {
+  display:block;
+  border-color:#deb888;
+  border-style:dashed;
+  border: width 1px;
+  margin:20px;
+  padding:20px;
+}
+
+.list_content{
+  margin:20px;
+  padding:20px;
+  padding-top:0px;
+}
+
+.ingredients, .steps {
+  padding-left:10px;
+}
+
+.ingredients{
+  list-style:circle;
+}
+
+img {
+  margin-left:20px;
+}
+
